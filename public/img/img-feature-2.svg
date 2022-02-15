@@ -1,0 +1,30 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="a">
+            <stop stop-color="#ECD08D" offset="0%"/>
+            <stop stop-color="#D4A354" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="25.625%" x2="100%" y2="74.375%" id="c">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop stop-color="#FFF" stop-opacity=".2" offset="50.232%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <filter x="-41.2%" y="-100%" width="182.4%" height="300%" filterUnits="objectBoundingBox" id="b">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect fill="url(#a)" width="48" height="48" rx="12"/>
+        <g filter="url(#b)" transform="translate(7 17)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path d="M6.974 0C3.124 0 0 3.135 0 7s3.123 7 6.974 7c4.65 0 8.864-3.5 10.026-7 1.162-3.5 5.376-7 10.026-7C30.876 0 34 3.135 34 7s-3.123 7-6.974 7" stroke="#FFF"/>
+            <path d="M27.026 14c-4.65 0-8.864-3.5-10.026-7-1.162-3.5-5.376-7-10.026-7" stroke="url(#c)"/>
+        </g>
+    </g>
+</svg>
