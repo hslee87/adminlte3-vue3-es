@@ -58,7 +58,7 @@
                     <div class="small-box bg-success">
                         <div class="inner">
                             <h3>NOT YET OPEN</h3>
-                            <p>ERC-20</p>
+                            <p>COIN</p>
                         </div>
                         <div class="icon">
                             <i class="ion ion-stats-bars"></i>

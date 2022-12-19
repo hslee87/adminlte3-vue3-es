@@ -22,15 +22,13 @@
     </app-dropdown>
 </template>
 
-<style lang="scss" scoped>
-.user-menu {
-    .user-image {
+<style scoped>
+.user-menu.user-image {
         width: 1.6rem !important;
         height: 1.6rem !important;
-    }
-    .dropdown-menu {
+}
+.user-menu.dropdown-menu {
         width: auto;
-    }
 }
 </style>
 

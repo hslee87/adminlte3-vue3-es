@@ -1,5 +1,4 @@
 import { mapState, mapGetters, mapActions } from 'vuex'
-import { state } from './'
 
 export const storeComputed = {
     ...mapState({

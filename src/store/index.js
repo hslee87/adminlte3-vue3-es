@@ -7,6 +7,7 @@ import dispatchActionForAllModules from './dispatch-action-for-all-modules'
 let isStrict = process.env.NODE_ENV !== 'production';
 isStrict = false;
 
+console.log('--- creating log')
 export default createStore({
     state: {
         version: '0.1',
